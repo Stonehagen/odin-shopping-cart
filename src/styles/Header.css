@@ -1,0 +1,32 @@
+.Header {
+  height: 300px;
+  display: grid;
+}
+
+.Header ul {
+  margin: 0;
+  align-self: flex-end;
+  list-style: none;
+  background-color: #deebf3;
+  height: 50px;
+  display: flex;
+  gap: 70px;
+  padding: 0 20px;
+  justify-content: end;
+  align-items: center;
+}
+
+.Header a {
+  text-decoration: none;
+}
+
+.Header li:hover {
+  color: rgb(70, 36, 78);
+  text-shadow: 0 0 5px rgb(231, 153, 234);
+}
+
+.Header li {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #2e2f36;
+  font-size: 2em;
+}
