@@ -1,3 +1,3 @@
-# The Finale Project for the React Section
+# The final project for the react section
 
-This project will be a Online Shop.
+This project will be an Online Shop
