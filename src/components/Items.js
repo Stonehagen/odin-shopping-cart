@@ -1,12 +1,38 @@
 import Duke from '../images/sails/Duke.webp';
 import Idol from '../images/sails/IDOL.webp';
-import SuperStarSLS from '../images/sails/SUPERSTAR_SLS.webp'
-import SuperStarHD from '../images/sails/SUPERSTAR_HD.webp'
-import SuperHero from '../images/sails/SUPERHERO.webp'
+import SuperStarSLS from '../images/sails/SUPERSTAR_SLS.webp';
+import SuperStarHD from '../images/sails/SUPERSTAR_HD.webp';
+import SuperHero from '../images/sails/SUPERHERO.webp';
+import GripXS from '../images/boards/GRIPXS.webp';
+import GripTE from '../images/boards/GRIPTE.webp';
+import MambaTE from '../images/boards/MAMBATE.webp';
+import FreewaveTXTR from '../images/boards/FREEWAVETXTR.webp';
+import FreewaveTE from '../images/boards/FREEWAVETE.webp';
+import Freewave from '../images/boards/FREEWAVE.webp';
+import SkateTE from '../images/boards/GRIPTE.webp';
+import AeroBoom from '../images/booms/PLATINIUMAERO.jpg';
+import PlatinBoom from '../images/booms/PLATINIUM.jpg';
+import SilverBoom from '../images/booms/SILVER.jpg';
+import BlackBoom from '../images/booms/BLACK.jpg';
+import AeroMast from '../images/masts/Platinum.jpg';
+import GoldMast from '../images/masts/Gold.jpg';
+import SilverMast from '../images/masts/Silver.jpg';
+import BlackMast from '../images/masts/Black.jpg';
+import StyleFin from '../images/fins/style.jpg';
+import StyleWeedFin from '../images/fins/style-weed.jpg';
+import XQuadFin from '../images/fins/x-quad.jpg';
+import XTwinSFin from '../images/fins/x-twin-s.jpg';
+import XTwinFin from '../images/fins/x-twin.jpg';
+import XWaveFin from '../images/fins/x-wave.jpg';
+import Harness from '../images/extras/HARNESS.webp';
+import IBase from '../images/extras/IBASE.png';
+import HarnessLinesOne from '../images/extras/LINE1.webp';
+import HarnessLinesTwo from '../images/extras/LINE2.webp';
+import PowerXT from '../images/extras/POWERXT.png';
 
 export const ShopItems = [
   {
-    catagory: 'Sails',
+    category: 'Sails',
     name: 'DUKE',
     brand: 'Duotone',
     picture: Duke,
@@ -16,17 +42,17 @@ export const ShopItems = [
     price: '919€',
   },
   {
-    catagory: 'Sails',
+    category: 'Sails',
     name: 'IDOL LTD',
     brand: 'Duotone',
     picture: Idol,
     description:
-      "THE LIGHTEST YET MOST COMPETITIVE FREESTYLE SAIL WE HAVE EVER BUILT!",
+      'THE LIGHTEST YET MOST COMPETITIVE FREESTYLE SAIL WE HAVE EVER BUILT!',
     size: '5.2qm',
     price: '1019€',
   },
   {
-    catagory: 'Sails',
+    category: 'Sails',
     name: 'SUPER_STAR SLS',
     brand: 'Duotone',
     picture: SuperStarSLS,
@@ -36,7 +62,7 @@ export const ShopItems = [
     price: '1209€',
   },
   {
-    catagory: 'Sails',
+    category: 'Sails',
     name: 'SUPER_STAR HD',
     brand: 'Duotone',
     picture: SuperStarHD,
@@ -46,7 +72,7 @@ export const ShopItems = [
     price: '1009€',
   },
   {
-    catagory: 'Sails',
+    category: 'Sails',
     name: 'SUPER_HERO',
     brand: 'Duotone',
     picture: SuperHero,
@@ -55,4 +81,259 @@ export const ShopItems = [
     size: '4.0qm',
     price: '979€',
   },
+  {
+    category: 'Boards',
+    name: 'GRIP XS',
+    brand: 'Fanatic',
+    picture: GripXS,
+    description:
+      'The Grip XS is our dedicated performance wave board for the future stars of our sport. Designed specifically for lightweight riders, every detail is built in proportion so that smaller rippers can unleash their potential without limitation.',
+    size: '60l',
+    price: '2299€',
+  },
+  {
+    category: 'Boards',
+    name: 'GRIP TE',
+    brand: 'Fanatic',
+    picture: GripTE,
+    description:
+      'The highly adaptable Grip TE enables you to ride your wave your way, without compromise.',
+    size: '81l',
+    price: '2999€',
+  },
+  {
+    category: 'Boards',
+    name: 'MAMBA TE',
+    brand: 'Fanatic',
+    picture: MambaTE,
+    description:
+      'The Mamba TE is an evolution of the Stubby and shines with similar attributes in sloppy waves but comes with improved performance for when the conditions turn on.',
+    size: '84l',
+    price: '2999€',
+  },
+  {
+    category: 'Boards',
+    name: 'FREEWAVE TEXTREME',
+    brand: 'Fanatic',
+    picture: FreewaveTXTR,
+    description:
+      'An evolution of the Stubby outline blended with our legendary FreeWave DNA, the FreeWave TXTR is a true chameleon – ready to adapt and excel in all conditions.',
+    size: '85l',
+    price: '3399€',
+  },
+  {
+    category: 'Boards',
+    name: 'FREEWAVE TE',
+    brand: 'Fanatic',
+    picture: FreewaveTE,
+    description:
+      'An evolution of the Stubby outline blended with our legendary FreeWave DNA, the FreeWave TE is a true chameleon – ready to adapt and excel in all conditions.',
+    size: '85l',
+    price: '2999€',
+  },
+  {
+    category: 'Boards',
+    name: 'FREEWAVE',
+    brand: 'Fanatic',
+    picture: Freewave,
+    description:
+      'An evolution of the Stubby outline blended with our legendary FreeWave DNA, the FreeWave is a true chameleon – ready to adapt and excel in all conditions.',
+    size: '85l',
+    price: '2499€',
+  },
+  {
+    category: 'Boards',
+    name: 'SKATE TE',
+    brand: 'Fanatic',
+    picture: SkateTE,
+    description:
+      'The Skate has shaped the past, present and future of modern freestyle windsurfing.',
+    size: '99l',
+    price: '2999€',
+  },
+  {
+    category: 'Booms',
+    name: 'PLATINUM AERO 3.0 SERIES',
+    brand: 'Duotone',
+    picture: AeroBoom,
+    description: 'THE LIGHTEST AND MOST EXCLUSIVE BOOM ON EARTH',
+    size: '140cm',
+    price: '1139€',
+  },
+  {
+    category: 'Booms',
+    name: 'PLATINUM SLS SERIES',
+    brand: 'Duotone',
+    picture: PlatinBoom,
+    description: 'THE MOST USED BOOM AMONG PWA COMPETITORS',
+    size: '140cm',
+    price: '999€',
+  },
+  {
+    category: 'Booms',
+    name: 'SILVER SERIES',
+    brand: 'Duotone',
+    picture: SilverBoom,
+    description: 'THE LIGHTEST AND MOST ADVANCED BOOM IN ITS CLASS',
+    size: '140cm',
+    price: '299€',
+  },
+  {
+    category: 'Booms',
+    name: 'BLACK SERIES',
+    brand: 'Duotone',
+    picture: BlackBoom,
+    description: 'THE LIGHTEST BOOM IN ITS CLASS',
+    size: '140cm',
+    price: '215€',
+  },
+  {
+    category: 'Masts',
+    name: 'PLATINUM AERO 3.0 SERIES',
+    brand: 'Duotone',
+    picture: AeroMast,
+    description: 'THE LIGHTEST RDM MAST ON EARTH',
+    size: '400cm',
+    price: '1150€',
+  },
+  {
+    category: 'Masts',
+    name: 'GOLD.90 SERIES',
+    brand: 'Duotone',
+    picture: GoldMast,
+    description: 'THE HIGH END MAST RANGE NOW WITH 90% CARBON',
+    size: '400cm',
+    price: '579€',
+  },
+  {
+    category: 'Masts',
+    name: 'SILVER.70 SERIES',
+    brand: 'Duotone',
+    picture: SilverMast,
+    description: 'OUR BESTSELLER - NOT WITHOUT A REASON',
+    size: '400cm',
+    price: '439€',
+  },
+  {
+    category: 'Masts',
+    name: 'BLACK.50 SERIES',
+    brand: 'Duotone',
+    picture: BlackMast,
+    description: 'YOUR ENTRY INTO DUOTONE HIGH-END MASTS',
+    size: '400cm',
+    price: '259€',
+  },
+  {
+    category: 'Extras',
+    name: 'POWER.XT 2.0',
+    brand: 'Duotone',
+    picture: PowerXT,
+    description: 'THE GREATEST INVENTION IN WINDSURFING HISTORY - PERIOD',
+    size: 'SLS RDM 36',
+    price: '299€',
+  },
+  {
+    category: 'Extras',
+    name: 'IBASE 2.0',
+    brand: 'Duotone',
+    picture: IBase,
+    description:
+      'THE LOWEST AND LIGHTEST MAST BASE SYSTEM WITH CENTRAL SCREW INCL. RELEASE OPTION',
+    size: 'IBASE 2.0',
+    price: '109€',
+  },
+  {
+    category: 'Extras',
+    name: 'RADIUM TEAM SERIES',
+    brand: 'Duotone',
+    picture: Harness,
+    description:
+      'Made out of Thermo Composite CURV material - the lightest hardshell material on the market. Developed in cooperation with ION.',
+    size: '52/L',
+    price: '279€',
+  },
+  {
+    category: 'Extras',
+    name: 'FIXOR PRO LINES',
+    brand: 'Duotone',
+    picture: HarnessLinesOne,
+    description: 'Can be replaced without having to remove the boom end.',
+    size: '26"',
+    price: '32€',
+  },
+  {
+    category: 'Extras',
+    name: 'FIXOR LINES',
+    brand: 'Duotone',
+    picture: HarnessLinesTwo,
+    description: 'Non-stretch ropes with solid hose sheathing.',
+    size: '26"',
+    price: '29€',
+  },
+  {
+    category: 'Fins',
+    name: 'Style-Weed-Pro',
+    brand: 'Maui Ultra Fins',
+    picture: StyleWeedFin,
+    description:
+      'After two years of R & D we proudly present our new red hot Style-Weed-Pro - for ambitious pros and amateurs alike!',
+    size: '20cm',
+    price: '109€',
+  },
+  {
+    category: 'Fins',
+    name: 'Style',
+    brand: 'Maui Ultra Fins',
+    picture: StyleFin,
+    description: 'The perfect fin for sailors new to freestyling.',
+    size: '20cm',
+    price: '99€',
+  },
+  {
+    category: 'Fins',
+    name: 'X-Quad',
+    brand: 'Maui Ultra Fins',
+    picture: XQuadFin,
+    description: 'Our pros simply love these superfast and radical fins.',
+    size: '12cm',
+    price: '35€',
+  },
+  {
+    category: 'Fins',
+    name: 'X-Twin S',
+    brand: 'Maui Ultra Fins',
+    picture: XTwinSFin,
+    description:
+      "he fins provide great grip when taking off and looseness in the waves which makes them our pros' favourites in weedy Tenerife.",
+    size: '14cm',
+    price: '40€',
+  },
+  {
+    category: 'Fins',
+    name: 'X-Twin',
+    brand: 'Maui Ultra Fins',
+    picture: XTwinFin,
+    description: 'Sky high jumps, solid bottom turns and super loose.',
+    size: '16cm',
+    price: '55€',
+  },
+  {
+    category: 'Fins',
+    name: 'X-Wave',
+    brand: 'Maui Ultra Fins',
+    picture: XWaveFin,
+    description:
+      "Philip Köster's single fin choice for onshore Sylt when going for fast slashes and turns.",
+    size: '22cm',
+    price: '79€',
+  },
+];
+
+export const categorys = [
+  'Sails',
+  'Boards',
+  'Booms',
+  'Masts',
+  'Extras',
+  'Fins',
 ];
