@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import HeaderImg from '../images/header/header.png';
 import '../styles/Header.css';
 
-function Header() {
+const Header = () => {
   return (
     <div
       className="Header"
