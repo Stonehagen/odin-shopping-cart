@@ -1,19 +1,29 @@
 .Header {
-  height: 300px;
   display: grid;
+  background-position: center center;
+}
+
+.Header h1 {
+  margin: 10px 6%;
+  padding: 0;
+  font-size: 6em;
+  font-weight: bold;
+  color: white;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .Header ul {
   margin: 0;
   align-self: flex-end;
   list-style: none;
-  background-color: #deebf3;
-  height: 50px;
+  background-color: #ffffff;
+  height: 30px;
   display: flex;
   gap: 70px;
   padding: 0 20px;
   justify-content: end;
   align-items: center;
+  box-shadow: 0 -10px 20px 20px #ffffff;
 }
 
 .Header a {
@@ -21,7 +31,7 @@
 }
 
 .Header li:hover {
-  color: rgb(70, 36, 78);
+  color: rgb(132, 46, 79);
   text-shadow: 0 0 5px rgb(231, 153, 234);
 }
 
@@ -29,4 +39,5 @@
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #2e2f36;
   font-size: 2em;
+  padding-bottom: 20px;
 }

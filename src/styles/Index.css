@@ -4,3 +4,9 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+#root {
+  display: grid;
+  grid-template-rows: 300px 1fr;
+  height: 100vh;
+}

@@ -13,6 +13,7 @@ function Header() {
         backgroundSize: 'cover',
       }}
     >
+      <h1>WNDSRFNG</h1>
       <ul>
         <Link to="/">
           <li>HOME</li>
