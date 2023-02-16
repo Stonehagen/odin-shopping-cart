@@ -1,0 +1,26 @@
+.Item-Card {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  display: grid;
+  grid-template-rows: 6fr 1fr 1fr;
+  align-items: center;
+  background-color: rgb(178, 197, 227);
+}
+
+.Item-Card img {
+  width: 200px;
+  justify-self: center;
+  border-radius: 30px;
+}
+
+.Item-Card h2 {
+  margin: 0;
+  justify-self: center;
+}
+
+.Item-Card h4 {
+  margin: 0;
+  padding: 0 40px;
+  justify-self: end;
+}

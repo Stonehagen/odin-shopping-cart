@@ -1,11 +1,17 @@
 import React from 'react';
+import '../styles/Shop.css';
+import { ShopItems } from './Items';
+import ItemCard from './ItemCard';
 
 const Shop = () => {
+
   return (
     <div className="Shop">
-      <h1>Wellcome to my Shop</h1>
+      {ShopItems.map((item) => {
+        return <ItemCard item={item} />
+      })}
     </div>
   );
-}
+};
 
 export default Shop;
