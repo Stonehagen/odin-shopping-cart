@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/Shop.css';
 import { ShopItems } from './Items';
 import ItemCard from './ItemCard';
@@ -9,13 +9,22 @@ const Shop = () => {
   const [displayCat, setDisplayCat] = useState('All');
   const [cart, setCart] = useState([]);
   const [vis, setVis] = useState('hidden');
+  const [total, setTotal] = useState(0);
+
   const setVisible = () => {
     setVis('visible');
-
   };
   const setHidden = () => {
     setVis('hidden');
-  }
+  };
+
+  const getTotalOrders = () =>
+  cart.map((item) => item.amount).reduce((pv, cv) => pv + cv, 0);
+
+  useEffect(() => {
+
+    setTotal(getTotalOrders());
+  });
 
   return (
     <>
@@ -40,9 +49,10 @@ const Shop = () => {
         </div>
       </div>
       <div className="cart" onClick={() => setVisible()}>
-        CART
+        <div>CART</div>
+        <div>({total})</div>
       </div>
-      <Cart vis={vis} cart={cart} setHidden={setHidden} setCart={setCart}/>
+      <Cart vis={vis} cart={cart} setHidden={setHidden} setCart={setCart} />
     </>
   );
 };

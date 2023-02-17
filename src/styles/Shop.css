@@ -20,8 +20,8 @@
 }
 
 .cart {
-  text-align: center;
-  line-height: 100px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   text-align: center;
   position: fixed;
   width: 50px;
@@ -31,6 +31,10 @@
   background-color:rgb(202, 162, 168);
   border-radius: 20px 0 0 20px;
   color: white;
+}
+
+.cart div:first-child {
+  align-self: end;
 }
 
 .cart:hover {
