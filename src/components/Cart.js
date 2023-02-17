@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../styles/Cart.css';
 import CartTableBody from './CartTableBody';
 
-const Cart = ({ vis, cart, setHidden }) => {
+const Cart = ({ vis, cart, setHidden, setCart}) => {
   const calculateTotal = () =>
     cart
       .map((item) => item.amount * item.item.price)
@@ -26,7 +26,7 @@ const Cart = ({ vis, cart, setHidden }) => {
           <h4>Amount</h4>
           <h4>Price</h4>
         </div>
-        <CartTableBody cart={cart} recalculateTotal={recalculateTotal} />
+        <CartTableBody cart={cart} setCart={setCart} />
       </div>
       <div className="Cart-Footer">
         <p>Total: {total}€</p>

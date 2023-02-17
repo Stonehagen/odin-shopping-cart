@@ -42,7 +42,7 @@ const Shop = () => {
       <div className="cart" onClick={() => setVisible()}>
         CART
       </div>
-      <Cart vis={vis} cart={cart} setHidden={setHidden}/>
+      <Cart vis={vis} cart={cart} setHidden={setHidden} setCart={setCart}/>
     </>
   );
 };
