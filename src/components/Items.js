@@ -189,7 +189,7 @@ export const ShopItems = [
   },
   {
     category: 'Masts',
-    name: 'PLATINUM AERO 3.0',
+    name: 'PLATINUM AERO 3.0 ',
     brand: 'Duotone',
     picture: AeroMast,
     description: 'THE LIGHTEST RDM MAST ON EARTH',
@@ -336,4 +336,5 @@ export const Categorys = [
   'Masts',
   'Extras',
   'Fins',
+  'All'
 ];

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/ItemCard.css';
 
-const ItemCard = ({ item }) => {
+const ItemCard = ({ item}) => {
   return (
     <div className="Item-Card">
       <div className='Item-Image-Wrapper'>

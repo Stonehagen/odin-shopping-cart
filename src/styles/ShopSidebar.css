@@ -35,3 +35,7 @@
   background-color: rgb(132, 46, 79);
   box-shadow: 0 0 5px rgb(231, 153, 234);
 }
+
+#active {
+  background-color: rgb(132, 46, 79);
+}
