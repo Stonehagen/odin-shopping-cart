@@ -1,5 +1,8 @@
 .Shop {
+  margin: 0 20px;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  justify-content: space-between;
+  gap: min(20px);
+  row-gap: 50px;
 }

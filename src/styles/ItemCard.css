@@ -1,26 +1,52 @@
 .Item-Card {
   width: 300px;
-  height: 300px;
-  border-radius: 50px;
+  height: 370px;
   display: grid;
-  grid-template-rows: 6fr 1fr 1fr;
-  align-items: center;
-  background-color: rgb(178, 197, 227);
+  grid-template-rows: 270px 30px 35px 20px;
+  background-color: rgb(240, 234, 240);
+  border-radius: 20px;
 }
 
 .Item-Card img {
-  width: 200px;
-  justify-self: center;
-  border-radius: 30px;
+  height: 270px;
 }
 
-.Item-Card h2 {
+.Item-Image-Wrapper {
   margin: 0;
-  justify-self: center;
+  padding: 0;
+  background-color: White;
+  border-radius: 20px 20px 0 0 ;
+}
+
+.Item-Card h3 {
+  font-size: 1em;
+  margin: 7px 0 0 20px;
+  justify-self: left;
 }
 
 .Item-Card h4 {
+  padding: 0;
+  margin: 0 0 0 20px;
+  justify-self: left;
+}
+
+.Price-Wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 0 10px 0 20px;
+}
+
+.Item-Card button {
+  border-radius: 12px;
+  border: 1px solid rgb(202, 162, 168);
+  height: 25px;
+  background-color: white;
+}
+
+.Item-Card button:hover {
+  cursor: pointer;
+}
+
+.Item-Card div h4 {
   margin: 0;
-  padding: 0 40px;
-  justify-self: end;
 }

@@ -10,14 +10,14 @@ import FreewaveTXTR from '../images/boards/FREEWAVETXTR.webp';
 import FreewaveTE from '../images/boards/FREEWAVETE.webp';
 import Freewave from '../images/boards/FREEWAVE.webp';
 import SkateTE from '../images/boards/GRIPTE.webp';
-import AeroBoom from '../images/booms/PLATINIUMAERO.jpg';
-import PlatinBoom from '../images/booms/PLATINIUM.jpg';
-import SilverBoom from '../images/booms/SILVER.jpg';
-import BlackBoom from '../images/booms/BLACK.jpg';
-import AeroMast from '../images/masts/Platinum.jpg';
-import GoldMast from '../images/masts/Gold.jpg';
-import SilverMast from '../images/masts/Silver.jpg';
-import BlackMast from '../images/masts/Black.jpg';
+import AeroBoom from '../images/booms/Aero.webp';
+import PlatinBoom from '../images/booms/Platinum.webp';
+import SilverBoom from '../images/booms/Silver.webp';
+import BlackBoom from '../images/booms/Black.webp';
+import AeroMast from '../images/masts/Platinum.webp';
+import GoldMast from '../images/masts/Gold.webp';
+import SilverMast from '../images/masts/Silver.webp';
+import BlackMast from '../images/masts/Black.webp';
 import StyleFin from '../images/fins/style.png';
 import StyleWeedFin from '../images/fins/style-weed.png';
 import XQuadFin from '../images/fins/x-quad.png';
@@ -25,10 +25,10 @@ import XTwinSFin from '../images/fins/x-twin-s.png';
 import XTwinFin from '../images/fins/x-twin.png';
 import XWaveFin from '../images/fins/x-wave.png';
 import Harness from '../images/extras/HARNESS.webp';
-import IBase from '../images/extras/IBASE.png';
+import IBase from '../images/extras/iBase.webp';
 import HarnessLinesOne from '../images/extras/LINE1.webp';
 import HarnessLinesTwo from '../images/extras/LINE2.webp';
-import PowerXT from '../images/extras/POWERXT.png';
+import PowerXT from '../images/extras/PowerXT.webp';
 
 export const ShopItems = [
   {
@@ -153,7 +153,7 @@ export const ShopItems = [
   },
   {
     category: 'Booms',
-    name: 'PLATINUM AERO 3.0 SERIES',
+    name: 'PLATINUM AERO 3.0',
     brand: 'Duotone',
     picture: AeroBoom,
     description: 'THE LIGHTEST AND MOST EXCLUSIVE BOOM ON EARTH',
@@ -162,7 +162,7 @@ export const ShopItems = [
   },
   {
     category: 'Booms',
-    name: 'PLATINUM SLS SERIES',
+    name: 'PLATINUM SLS',
     brand: 'Duotone',
     picture: PlatinBoom,
     description: 'THE MOST USED BOOM AMONG PWA COMPETITORS',
@@ -171,7 +171,7 @@ export const ShopItems = [
   },
   {
     category: 'Booms',
-    name: 'SILVER SERIES',
+    name: 'SILVER',
     brand: 'Duotone',
     picture: SilverBoom,
     description: 'THE LIGHTEST AND MOST ADVANCED BOOM IN ITS CLASS',
@@ -180,7 +180,7 @@ export const ShopItems = [
   },
   {
     category: 'Booms',
-    name: 'BLACK SERIES',
+    name: 'BLACK',
     brand: 'Duotone',
     picture: BlackBoom,
     description: 'THE LIGHTEST BOOM IN ITS CLASS',
@@ -189,7 +189,7 @@ export const ShopItems = [
   },
   {
     category: 'Masts',
-    name: 'PLATINUM AERO 3.0 SERIES',
+    name: 'PLATINUM AERO 3.0',
     brand: 'Duotone',
     picture: AeroMast,
     description: 'THE LIGHTEST RDM MAST ON EARTH',
@@ -198,7 +198,7 @@ export const ShopItems = [
   },
   {
     category: 'Masts',
-    name: 'GOLD.90 SERIES',
+    name: 'GOLD.90',
     brand: 'Duotone',
     picture: GoldMast,
     description: 'THE HIGH END MAST RANGE NOW WITH 90% CARBON',
@@ -207,7 +207,7 @@ export const ShopItems = [
   },
   {
     category: 'Masts',
-    name: 'SILVER.70 SERIES',
+    name: 'SILVER.70',
     brand: 'Duotone',
     picture: SilverMast,
     description: 'OUR BESTSELLER - NOT WITHOUT A REASON',
@@ -216,7 +216,7 @@ export const ShopItems = [
   },
   {
     category: 'Masts',
-    name: 'BLACK.50 SERIES',
+    name: 'BLACK.50',
     brand: 'Duotone',
     picture: BlackMast,
     description: 'YOUR ENTRY INTO DUOTONE HIGH-END MASTS',
@@ -239,7 +239,7 @@ export const ShopItems = [
     picture: IBase,
     description:
       'THE LOWEST AND LIGHTEST MAST BASE SYSTEM WITH CENTRAL SCREW INCL. RELEASE OPTION',
-    size: 'IBASE 2.0',
+    size: 'Complete',
     price: '109€',
   },
   {

@@ -4,9 +4,17 @@ import '../styles/ItemCard.css';
 const ItemCard = ({ item }) => {
   return (
     <div className="Item-Card">
-      <img src={item.picture} alt={item.name} />
-      <h2>{item.name}</h2>
-      <h4>{item.price}</h4>
+      <div className='Item-Image-Wrapper'>
+        <img src={item.picture} alt={item.name} />
+      </div>
+      <h3>
+        {item.name}, {item.size}
+      </h3>
+      <h4>{item.brand}</h4>
+      <div className='Price-Wrapper'>
+        <h4>{item.price}</h4>
+        <button>Add to Cart</button>
+      </div>
     </div>
   );
 };
