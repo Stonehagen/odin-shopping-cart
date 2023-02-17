@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/odin-shopping-cart/static/css/main.258d99e5.css",
+    "main.js": "/odin-shopping-cart/static/js/main.841f088c.js",
+    "static/media/header.png": "/odin-shopping-cart/static/media/header.fa6de98aa8b829acb93a.png",
+    "static/media/SUPERSTAR_HD.webp": "/odin-shopping-cart/static/media/SUPERSTAR_HD.70d2f2b6cc24acb6ab27.webp",
+    "static/media/SUPERSTAR_SLS.webp": "/odin-shopping-cart/static/media/SUPERSTAR_SLS.5c0e0c9444de3ef4e57f.webp",
+    "static/media/SUPERHERO.webp": "/odin-shopping-cart/static/media/SUPERHERO.549f7aaa805b4372b448.webp",
+    "static/media/Duke.webp": "/odin-shopping-cart/static/media/Duke.b99cc5abcdba331b6cba.webp",
+    "static/media/IDOL.webp": "/odin-shopping-cart/static/media/IDOL.2931a4214e4ec37577a2.webp",
+    "static/media/HARNESS.webp": "/odin-shopping-cart/static/media/HARNESS.4769fa1958ed8b8186a6.webp",
+    "static/media/LINE2.webp": "/odin-shopping-cart/static/media/LINE2.38d12d50117cb15fd6bc.webp",
+    "static/media/LINE1.webp": "/odin-shopping-cart/static/media/LINE1.31c9776a956140c113e2.webp",
+    "static/media/x-quad.png": "/odin-shopping-cart/static/media/x-quad.2d82886f722e82cc93af.png",
+    "static/media/x-wave.png": "/odin-shopping-cart/static/media/x-wave.69eeb41f3e97dbd2e8c1.png",
+    "static/media/x-twin.png": "/odin-shopping-cart/static/media/x-twin.e71944efe3a5f8fa56cd.png",
+    "static/media/style.png": "/odin-shopping-cart/static/media/style.5bbd1fd58821e995689d.png",
+    "static/media/style-weed.png": "/odin-shopping-cart/static/media/style-weed.093e9ff16022780bc2ab.png",
+    "static/media/x-twin-s.png": "/odin-shopping-cart/static/media/x-twin-s.ae88b761a870ff313967.png",
+    "static/media/Platinum.webp": "/odin-shopping-cart/static/media/Platinum.aa2ba80acaf952cf37de.webp",
+    "static/media/Silver.webp": "/odin-shopping-cart/static/media/Silver.4bc3c133e2a0b64e4794.webp",
+    "static/media/MAMBATE.webp": "/odin-shopping-cart/static/media/MAMBATE.9db7dcdebd1057631f56.webp",
+    "static/media/FREEWAVETXTR.webp": "/odin-shopping-cart/static/media/FREEWAVETXTR.27b64f4f954518954d73.webp",
+    "static/media/FREEWAVETE.webp": "/odin-shopping-cart/static/media/FREEWAVETE.9a918949349926db55e8.webp",
+    "static/media/GRIPTE.webp": "/odin-shopping-cart/static/media/GRIPTE.47988292f56943380a64.webp",
+    "static/media/FREEWAVE.webp": "/odin-shopping-cart/static/media/FREEWAVE.79376b074cc9473a5703.webp",
+    "static/media/Aero.webp": "/odin-shopping-cart/static/media/Aero.154c1468edaf2d18501e.webp",
+    "static/media/GRIPXS.webp": "/odin-shopping-cart/static/media/GRIPXS.1c51a2fdd75c5aadb3e9.webp",
+    "static/media/Black.webp": "/odin-shopping-cart/static/media/Black.279b30f43984e429e24e.webp",
+    "static/media/iBase.webp": "/odin-shopping-cart/static/media/iBase.084eec399f47fbed5ecd.webp",
+    "static/media/Gold.webp": "/odin-shopping-cart/static/media/Gold.1c0e13fa2254b87ee874.webp",
+    "static/media/PowerXT.webp": "/odin-shopping-cart/static/media/PowerXT.06a8f86ddc1bc9e7edca.webp",
+    "index.html": "/odin-shopping-cart/index.html",
+    "main.258d99e5.css.map": "/odin-shopping-cart/static/css/main.258d99e5.css.map",
+    "main.841f088c.js.map": "/odin-shopping-cart/static/js/main.841f088c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.258d99e5.css",
+    "static/js/main.841f088c.js"
+  ]
+}
