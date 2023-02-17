@@ -1,0 +1,133 @@
+.Cart-Display {
+  padding: 25px 5px 10px 25px;
+  display: grid;
+  grid-template-rows: 1fr 60px;
+  position: fixed;
+  width: 440px;
+  height: 500px;
+  top: 350px;
+  right: 0;
+  border: 1px solid rgb(132, 46, 79);
+  border-radius: 20px 0 0 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -3px 5px 10px rgb(59, 59, 59);
+}
+
+.Cart-Display p {
+  margin: 0;
+  padding: 0;
+}
+
+.Cart-Table {
+  padding-right: 15px;
+}
+
+.Table-Body {
+  display: grid;
+  margin-top: 20px;
+  padding: 0 15px 0 0;
+  gap: 10px;
+  grid-template-rows: 20px;
+  grid-auto-rows: 20px;
+  overflow-y: auto;
+  white-space: nowrap;
+  height: 380px;
+}
+
+.Cart-Table-Header {
+  margin-right: 30px;
+  display: grid;
+  grid-template-columns: 3fr 70px 1fr;
+}
+
+.Cart-Table-Header :nth-child(n+2) {
+  text-align: end;
+}
+
+.Cart-Table h4 {
+  margin: 0;
+  padding: 0;
+}
+
+
+.Cart-Table-Row {
+  display: grid;
+  grid-template-columns: 3fr 70px 1fr;
+  padding: 0;
+  margin: 0;
+}
+
+.Cart-Table-Row:first-child {
+  text-align: left;
+}
+
+.Cart-Price {
+  text-align: end;
+  margin-right: 20px;
+}
+
+.Cart-Amount {
+  text-align: center;
+  margin-right: 40px;
+}
+
+.Table-Amount {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.change-amount-btn {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  border: 1px solid rgb(202, 162, 168);
+  background-color:rgb(202, 162, 168);
+  color: white;
+}
+
+.change-amount-btn:hover {
+  cursor: pointer;
+  background-color: rgb(132, 46, 79);
+  box-shadow: 0 0 1px rgb(231, 153, 234);
+}
+
+.Cart-Footer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: end;
+  margin-right: 20px;
+}
+
+.Cart-Footer p {
+  text-align: end;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.Cart-Footer div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 180px
+}
+
+.Cart-Footer button:first-child {
+  width: 80px;
+}
+
+.Cart-Footer button {
+  width: 120px;
+  border-radius: 15px;
+  border: 1px solid rgb(202, 162, 168);
+  height: 30px;
+  background-color:rgb(202, 162, 168);
+  color: white;
+}
+
+.Cart-Footer button:hover {
+  cursor: pointer;
+  background-color: rgb(132, 46, 79);
+  box-shadow: 0 0 5px rgb(231, 153, 234);
+}

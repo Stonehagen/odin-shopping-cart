@@ -6,13 +6,14 @@ const ItemCard = ({ item, cart, setCart }) => {
     const edibleCart = [...cart];
     let found = false;
     edibleCart.forEach((cartItem, index) => {
-      if (edibleCart[index].name === it.name) {
+      if (edibleCart[index].name === `${it.name}, ${it.size}`) {
+        
         found = true;
         edibleCart[index].amount = edibleCart[index].amount + 1;
       }
     });
     if (!found) {
-      const newEntry = { name: it.name, amount: 1, item: it };
+      const newEntry = { name: `${it.name}, ${it.size}`, amount: 1, item: it };
       edibleCart.push(newEntry);
     }
     setCart(edibleCart);
