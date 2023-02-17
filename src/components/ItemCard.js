@@ -1,7 +1,11 @@
 import React from 'react';
 import '../styles/ItemCard.css';
 
-const ItemCard = ({ item}) => {
+const ItemCard = ({ item, cart, setCart }) => {
+
+  const addToCart = (it) => {
+    setCart(cart.concat([it]));
+  }
   return (
     <div className="Item-Card">
       <div className='Item-Image-Wrapper'>
@@ -12,8 +16,8 @@ const ItemCard = ({ item}) => {
       </h3>
       <h4>{item.brand}</h4>
       <div className='Price-Wrapper'>
-        <h4>{item.price}</h4>
-        <button>Add to Cart</button>
+        <h4>{item.price}€</h4>
+        <button onClick={() => addToCart(item)}>Add to Cart</button>
       </div>
     </div>
   );

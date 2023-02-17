@@ -39,7 +39,7 @@ export const ShopItems = [
     description:
       "THE ULTIMATE JUMP N' RIDE SAIL BEING AN IDEAL MATCH WITH FREEWAVE AND SMALL FREERIDE BOARDS",
     size: '5.0qm',
-    price: '919€',
+    price: 919,
   },
   {
     category: 'Sails',
@@ -49,7 +49,7 @@ export const ShopItems = [
     description:
       'THE LIGHTEST YET MOST COMPETITIVE FREESTYLE SAIL WE HAVE EVER BUILT!',
     size: '5.2qm',
-    price: '1019€',
+    price: 1019,
   },
   {
     category: 'Sails',
@@ -59,7 +59,7 @@ export const ShopItems = [
     description:
       'AS LIGHT AS A MEMBRANE SAIL, BUT WITHOUT SACRIFICING DURABILITY/LONGEVITY. WE ARE SO CONFIDENT OF THE BRAND-NEW SLS CONSTRUCTION THAT WE BACK IT UP WITH OUR UNIQUE 5-YEAR WARRANTY. SLS - STRONG LIGHT SUPERIOR!',
     size: '4.5qm',
-    price: '1209€',
+    price: 1209,
   },
   {
     category: 'Sails',
@@ -69,7 +69,7 @@ export const ShopItems = [
     description:
       'ONE OF THE MOST ICONIC WAVE SAILS EVER! RESPONSIVE AND DIRECT THE NEW SUPER_STAR HD WORKS ON SINGLE- AND MULTIFIN WAVE BOARDS AND EVEN FOR FREEWAVE JUMPING CONDITIONS.',
     size: '4.7qm',
-    price: '1009€',
+    price: 1009,
   },
   {
     category: 'Sails',
@@ -79,7 +79,7 @@ export const ShopItems = [
     description:
       'LOOK NO FURTHER - THE WAVE SAIL FOR ANY CONDITION AND RIDER WEIGHT. THE CENTERED DRAFT POSITION MAKES THE SUPER_HERO THE MOST NEUTRAL WAVE SAIL OUT THERE.',
     size: '4.0qm',
-    price: '979€',
+    price: 979,
   },
   {
     category: 'Boards',
@@ -89,7 +89,7 @@ export const ShopItems = [
     description:
       'The Grip XS is our dedicated performance wave board for the future stars of our sport. Designed specifically for lightweight riders, every detail is built in proportion so that smaller rippers can unleash their potential without limitation.',
     size: '60l',
-    price: '2299€',
+    price: 2299,
   },
   {
     category: 'Boards',
@@ -99,7 +99,7 @@ export const ShopItems = [
     description:
       'The highly adaptable Grip TE enables you to ride your wave your way, without compromise.',
     size: '81l',
-    price: '2999€',
+    price: 2999,
   },
   {
     category: 'Boards',
@@ -109,7 +109,7 @@ export const ShopItems = [
     description:
       'The Mamba TE is an evolution of the Stubby and shines with similar attributes in sloppy waves but comes with improved performance for when the conditions turn on.',
     size: '84l',
-    price: '2999€',
+    price: 2999,
   },
   {
     category: 'Boards',
@@ -119,7 +119,7 @@ export const ShopItems = [
     description:
       'An evolution of the Stubby outline blended with our legendary FreeWave DNA, the FreeWave TXTR is a true chameleon – ready to adapt and excel in all conditions.',
     size: '85l',
-    price: '3399€',
+    price: 3399,
   },
   {
     category: 'Boards',
@@ -129,7 +129,7 @@ export const ShopItems = [
     description:
       'An evolution of the Stubby outline blended with our legendary FreeWave DNA, the FreeWave TE is a true chameleon – ready to adapt and excel in all conditions.',
     size: '85l',
-    price: '2999€',
+    price: 2999,
   },
   {
     category: 'Boards',
@@ -139,7 +139,7 @@ export const ShopItems = [
     description:
       'An evolution of the Stubby outline blended with our legendary FreeWave DNA, the FreeWave is a true chameleon – ready to adapt and excel in all conditions.',
     size: '85l',
-    price: '2499€',
+    price: 2499,
   },
   {
     category: 'Boards',
@@ -149,7 +149,7 @@ export const ShopItems = [
     description:
       'The Skate has shaped the past, present and future of modern freestyle windsurfing.',
     size: '99l',
-    price: '2999€',
+    price: 2999,
   },
   {
     category: 'Booms',
@@ -158,7 +158,7 @@ export const ShopItems = [
     picture: AeroBoom,
     description: 'THE LIGHTEST AND MOST EXCLUSIVE BOOM ON EARTH',
     size: '140cm',
-    price: '1139€',
+    price: 1139,
   },
   {
     category: 'Booms',
@@ -167,7 +167,7 @@ export const ShopItems = [
     picture: PlatinBoom,
     description: 'THE MOST USED BOOM AMONG PWA COMPETITORS',
     size: '140cm',
-    price: '999€',
+    price: 999,
   },
   {
     category: 'Booms',
@@ -176,7 +176,7 @@ export const ShopItems = [
     picture: SilverBoom,
     description: 'THE LIGHTEST AND MOST ADVANCED BOOM IN ITS CLASS',
     size: '140cm',
-    price: '299€',
+    price: 299,
   },
   {
     category: 'Booms',
@@ -185,7 +185,7 @@ export const ShopItems = [
     picture: BlackBoom,
     description: 'THE LIGHTEST BOOM IN ITS CLASS',
     size: '140cm',
-    price: '215€',
+    price: 215,
   },
   {
     category: 'Masts',
@@ -194,7 +194,7 @@ export const ShopItems = [
     picture: AeroMast,
     description: 'THE LIGHTEST RDM MAST ON EARTH',
     size: '400cm',
-    price: '1150€',
+    price: 1150,
   },
   {
     category: 'Masts',
@@ -203,7 +203,7 @@ export const ShopItems = [
     picture: GoldMast,
     description: 'THE HIGH END MAST RANGE NOW WITH 90% CARBON',
     size: '400cm',
-    price: '579€',
+    price: 579,
   },
   {
     category: 'Masts',
@@ -212,7 +212,7 @@ export const ShopItems = [
     picture: SilverMast,
     description: 'OUR BESTSELLER - NOT WITHOUT A REASON',
     size: '400cm',
-    price: '439€',
+    price: 439,
   },
   {
     category: 'Masts',
@@ -221,7 +221,7 @@ export const ShopItems = [
     picture: BlackMast,
     description: 'YOUR ENTRY INTO DUOTONE HIGH-END MASTS',
     size: '400cm',
-    price: '259€',
+    price: 259,
   },
   {
     category: 'Extras',
@@ -230,7 +230,7 @@ export const ShopItems = [
     picture: PowerXT,
     description: 'THE GREATEST INVENTION IN WINDSURFING HISTORY - PERIOD',
     size: 'SLS RDM 36',
-    price: '299€',
+    price: 299,
   },
   {
     category: 'Extras',
@@ -240,7 +240,7 @@ export const ShopItems = [
     description:
       'THE LOWEST AND LIGHTEST MAST BASE SYSTEM WITH CENTRAL SCREW INCL. RELEASE OPTION',
     size: 'Complete',
-    price: '109€',
+    price: 109,
   },
   {
     category: 'Extras',
@@ -250,7 +250,7 @@ export const ShopItems = [
     description:
       'Made out of Thermo Composite CURV material - the lightest hardshell material on the market. Developed in cooperation with ION.',
     size: '52/L',
-    price: '279€',
+    price: 279,
   },
   {
     category: 'Extras',
@@ -259,7 +259,7 @@ export const ShopItems = [
     picture: HarnessLinesOne,
     description: 'Can be replaced without having to remove the boom end.',
     size: '26"',
-    price: '32€',
+    price: 32,
   },
   {
     category: 'Extras',
@@ -268,7 +268,7 @@ export const ShopItems = [
     picture: HarnessLinesTwo,
     description: 'Non-stretch ropes with solid hose sheathing.',
     size: '26"',
-    price: '29€',
+    price: 29,
   },
   {
     category: 'Fins',
@@ -278,7 +278,7 @@ export const ShopItems = [
     description:
       'After two years of R & D we proudly present our new red hot Style-Weed-Pro - for ambitious pros and amateurs alike!',
     size: '20cm',
-    price: '109€',
+    price: 109,
   },
   {
     category: 'Fins',
@@ -287,7 +287,7 @@ export const ShopItems = [
     picture: StyleFin,
     description: 'The perfect fin for sailors new to freestyling.',
     size: '20cm',
-    price: '99€',
+    price: 99,
   },
   {
     category: 'Fins',
@@ -296,7 +296,7 @@ export const ShopItems = [
     picture: XQuadFin,
     description: 'Our pros simply love these superfast and radical fins.',
     size: '12cm',
-    price: '35€',
+    price: 35,
   },
   {
     category: 'Fins',
@@ -306,7 +306,7 @@ export const ShopItems = [
     description:
       "he fins provide great grip when taking off and looseness in the waves which makes them our pros' favourites in weedy Tenerife.",
     size: '14cm',
-    price: '40€',
+    price: 40,
   },
   {
     category: 'Fins',
@@ -315,7 +315,7 @@ export const ShopItems = [
     picture: XTwinFin,
     description: 'Sky high jumps, solid bottom turns and super loose.',
     size: '16cm',
-    price: '55€',
+    price: 55,
   },
   {
     category: 'Fins',
@@ -325,7 +325,7 @@ export const ShopItems = [
     description:
       "Philip Köster's single fin choice for onshore Sylt when going for fast slashes and turns.",
     size: '22cm',
-    price: '79€',
+    price: 79,
   },
 ];
 

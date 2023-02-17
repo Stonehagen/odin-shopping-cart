@@ -6,6 +6,7 @@ import ShopSidebar from './ShopSidebar';
 
 const Shop = () => {
   const [displayCat, setDisplayCat] = useState('All');
+  const [cart, setCart] = useState([]);
 
   return (
     <div className="Shop">
@@ -14,9 +15,16 @@ const Shop = () => {
         <div className="Shop-Grid">
           {ShopItems.map((item) => {
             if (displayCat === 'All' || displayCat === item.category) {
-              return <ItemCard item={item} key={item.name} />;
+              return (
+                <ItemCard
+                  item={item}
+                  cart={cart}
+                  setCart={setCart}
+                  key={item.name}
+                />
+              );
             }
-              return false;
+            return false;
           })}
         </div>
       </div>
