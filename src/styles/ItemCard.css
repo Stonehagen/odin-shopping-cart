@@ -40,11 +40,14 @@
   border-radius: 12px;
   border: 1px solid rgb(202, 162, 168);
   height: 25px;
-  background-color: white;
+  background-color:rgb(202, 162, 168);
+  color: white;
 }
 
 .Item-Card button:hover {
   cursor: pointer;
+  background-color: rgb(132, 46, 79);
+  box-shadow: 0 0 5px rgb(231, 153, 234);
 }
 
 .Item-Card div h4 {

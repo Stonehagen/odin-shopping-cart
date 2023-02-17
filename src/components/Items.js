@@ -329,7 +329,7 @@ export const ShopItems = [
   },
 ];
 
-export const categorys = [
+export const Categorys = [
   'Sails',
   'Boards',
   'Booms',
