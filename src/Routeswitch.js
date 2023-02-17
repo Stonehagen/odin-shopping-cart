@@ -7,7 +7,7 @@ import Header from './components/Header';
 function Routeswitch() {
   return (
     <BrowserRouter
-    basename='/'>
+    basename='/odin-shopping-cart'>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
