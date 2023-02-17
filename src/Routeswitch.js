@@ -6,7 +6,8 @@ import Header from './components/Header';
 
 function Routeswitch() {
   return (
-    <BrowserRouter>
+    <BrowserRouter
+    basename='/'>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
